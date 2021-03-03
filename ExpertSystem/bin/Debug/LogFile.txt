@@ -1,0 +1,49 @@
+
+Log Entry : 14:33:50 wtorek, 12 września 2017
+
+Baza wiedzy pochodzi z pliku: C:\Users\Martyna\Desktop\LICENCJAT INFORMATYKA UMCS\Pliki bazy wiedzy\Paradoks Nixona.xml
+
+Nazwa bazy wiedzy: Paradoks Nixona
+
+Fakty:
+Kwakier
+Republikanin
+¬ Polityk
+
+Reguły:
+r0:  Republikanin  ──►  ¬ Pacyfista	(pr = 1)
+r1:  Republikanin  ──►  Polityk	(pr = 1)
+r2:  Kwakier  ʌ  ¬ Polityk  ──►  Pacyfista	(pr = 1,1)
+
+[ Cykl 1 ]______________________________________________________________________
+
+Reguła 0 jest spełniona.
+ Odpalono regułę 0:
+   Zapisano wniosek: '¬ Pacyfista (r0)'.
+Reguła 1 jest spełniona.
+ Odpalono regułę 1:
+Reguła 2 jest spełniona.
+ Odpalono regułę 2:
+   Zapisano wniosek: 'Pacyfista (r2)'.
+
+[ Cykl 2 ]______________________________________________________________________
+
+Reguła 0 jest spełniona.
+ Odpalono regułę 0:
+Reguła 1 jest spełniona.
+ Odpalono regułę 1:
+Reguła 2 jest spełniona.
+ Odpalono regułę 2:
+
+[ Konflikty ]___________________________________________________________________
+
+ Atak obalania!
+   r2 pokonuje r0, ponieważ pref(r0) < pref(r2).
+   Odrzucono fakt: '¬ Pacyfista (r0)'
+
+[ Fakty po wnioskowaniu ]_______________________________________________________
+
+ Kwakier
+ Republikanin
+ ¬ Polityk
+ Pacyfista (r2)

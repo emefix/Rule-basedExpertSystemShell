@@ -1,0 +1,61 @@
+
+Log Entry : 14:42:33 piątek, 18 sierpnia 2017
+
+Baza wiedzy pochodzi z pliku: C:\Users\Martyna\Documents\Visual Studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\rebutting3.xml
+
+Nazwa bazy wiedzy: r0 = r3,  r1 < r3
+
+Fakty:
+m
+a
+c
+
+Reguły:
+r0:  m  ──►  b	(pr = 1,1)
+r1:  c  ──►  b	(pr = 1)
+r2:  b  ──►  u	(pr = 1)
+r3:  a  ──►  ¬ b	(pr = 1,1)
+
+[ Cykl 1 ]______________________________________________________________________
+
+Reguła 0 jest spełniona.
+ Odpalono regułę 0:
+   Zapisano wniosek: 'b (r0)'.
+Reguła 1 jest spełniona.
+ Odpalono regułę 1:
+   Zapisano wniosek: 'b (r1)'.
+Reguła 2 jest spełniona.
+ Odpalono regułę 2:
+   Zapisano wniosek: 'u (r2)'.
+Reguła 3 jest spełniona.
+ Odpalono regułę 3:
+   Zapisano wniosek: '¬ b (r3)'.
+
+[ Cykl 2 ]______________________________________________________________________
+
+Reguła 0 jest spełniona.
+ Odpalono regułę 0:
+Reguła 1 jest spełniona.
+ Odpalono regułę 1:
+Reguła 2 jest spełniona.
+ Odpalono regułę 2:
+Reguła 3 jest spełniona.
+ Odpalono regułę 3:
+
+[ Konflikty ]___________________________________________________________________
+
+ Atak obalania!
+  Reguły się obalają: 
+	r0:  m  ──►  b	(pr = 1,1),
+	r3:  a  ──►  ¬ b	(pr = 1,1).
+
+   Odrzucono fakt: 'b (r0)'
+   Odrzucono fakt: '¬ b (r3)'
+
+[ Fakty po wnioskowaniu ]_______________________________________________________
+
+ m
+ a
+ c
+ b (r1)
+ u (r2)

@@ -1,0 +1,18 @@
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\KnowledgeBaseData.xml
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\Expert System Shell.exe.config
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\Expert System Shell.exe.manifest
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\Expert System Shell.application
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\Expert System Shell.exe
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\Expert System Shell.pdb
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\TextEditor.exe
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\TextEditor.pdb
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\bin\Debug\TextEditor.exe.config
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\ExpertSystem.csprojResolveAssemblyReference.cache
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\ExpertSystem.ExpertSystemForm.resources
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\ExpertSystem.Properties.Resources.resources
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\ExpertSystem.csproj.GenerateResource.Cache
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\Expert System Shell.TrustInfo.xml
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\Expert System Shell.exe.manifest
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\Expert System Shell.application
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\Expert System Shell.exe
+C:\Users\Martyna\documents\visual studio 2017\Projects\Rule-basedExpertSystemShell\ExpertSystem\obj\Debug\Expert System Shell.pdb

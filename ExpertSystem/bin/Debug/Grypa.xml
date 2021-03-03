@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Czy mam grypę?">
+  <FactList>
+    <Fact>
+      <Attribute>Katar</Attribute>
+      <Value>1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Kaszel</Attribute>
+      <Value>1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Kichanie</Attribute>
+      <Value>1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Obolałe gardło</Attribute>
+      <Value>1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Bóle głowy</Attribute>
+      <Value>1</Value>
+    </Fact>
+  </FactList>
+  <RuleList>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Gorączka</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Ból głowy</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Ogólne bóle tułowia</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Zapalenie spojówek</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Kaszel</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Katar</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Grypa</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Gorączka</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Ból głowy</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Rozwolnienie</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Pocenie się</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Nagła gorączka i dreszcze</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Czerowne plamy na ciele</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Zatrucie krwi</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Wysypka</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Swędzenie</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Ból głowy</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Goroączka</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Nagła gorączka i dreszcze</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Ospa wietrzna</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Wysypka</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Gorączka</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Kaszel</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Zapalenie spojówek</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Katar</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Odra</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Nudności</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Wymioty</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Rozwolnienie</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Osłabienie</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Grypa jelitowa</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Kichanie</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Obolałe gardło</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Bóle głowy</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Katar</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Kaszel</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Zwykłe przeziębienie</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Opuchnięte migdały</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Sucho w jamie ustnej</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Nadmierne ślinienie się</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Gorączka</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Powiększone węzły chłonne</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Świnka</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Bóle żołądkowe</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Częste odbijanie się</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>Nabrzmiały żołądek</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Nieżyt żołądka</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+  </RuleList>
+</KnowledgeBase>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Kupno samochodu">
+  <FactList>
+    <Fact>
+      <Attribute>Dostanę poważną podwyżkę</Attribute>
+      <Value>-1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Dostanę znaczny spadek</Attribute>
+      <Value>-1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Wygram w Toto-Lotka</Attribute>
+      <Value>1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Wypłacą mi duże honorarium</Attribute>
+      <Value>-1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Wygram w Bingo</Attribute>
+      <Value>-1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Poszczęści mi się na giełdzie</Attribute>
+      <Value>-1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Będę długo oszczędzał</Attribute>
+      <Value>-1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>Dostanę potrzebny kredyt z banku</Attribute>
+      <Value>-1</Value>
+    </Fact>
+  </FactList>
+  <RuleList>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Dostanę poważną podwyżkę</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Dostanę znaczny spadek</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Wygram w Toto-Lotka</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Wypłacą mi duże honorarium</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Wygram w Bingo</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Poszczęści mi się na giełdzie</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Będę długo oszczędzał</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Dostanę potrzebny kredyt z banku</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Kupię dobry samochód</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+  </RuleList>
+</KnowledgeBase>

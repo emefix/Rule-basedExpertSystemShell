@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Porsche">
+  <FactList />
+  <RuleList>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Bogaty</Attribute>
+          <Value>0</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Ma Porsche</Attribute>
+        <Value>-1</Value>
+      </Conclusion>
+      <Priority>1,1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList />
+      <Conclusion>
+        <Attribute>Ma Porsche</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>Ma Porsche</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Bogaty</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+  </RuleList>
+</KnowledgeBase>

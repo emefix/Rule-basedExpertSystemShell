@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<KnowledgeBase name="Baza wiedzy abstrakcyjna">
+
+  <FactList>
+    <Fact>
+      <Attribute>A</Attribute>
+      <Value>1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>B</Attribute>
+      <Value>-1</Value>
+  </Fact>
+    <Fact>
+      <Attribute>C</Attribute>
+      <Value>1</Value>
+    </Fact>
+    <Fact>
+      <Attribute>D</Attribute>
+      <Value>-1</Value>    
+  </Fact>
+    <Fact>
+      <Attribute>E</Attribute>
+      <Value>-1</Value>    
+    </Fact>
+  </FactList>
+
+  <RuleList>
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>A</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>B</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>W</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>0,2</Priority>
+    </Rule>
+    
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>W</Attribute>
+          <Value>-1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>E</Attribute>
+          <Value>-1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>X</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>0,7</Priority>
+    </Rule>
+    
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>A</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>D</Attribute>
+          <Value>1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Z</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+    </Rule>
+    
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>X</Attribute>
+          <Value>-1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>Z</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>0,9</Priority>
+    </Rule>
+    
+    <Rule>
+      <ConditionList>
+        <Condition>
+          <Attribute>C</Attribute>
+          <Value>1</Value>
+        </Condition>
+        <Condition>
+          <Attribute>D</Attribute>
+          <Value>-1</Value>
+        </Condition>
+      </ConditionList>
+      <Conclusion>
+        <Attribute>W</Attribute>
+        <Value>1</Value>
+      </Conclusion>
+      <Priority>1</Priority>
+      
+    </Rule>
+  </RuleList>
+
+</KnowledgeBase>
